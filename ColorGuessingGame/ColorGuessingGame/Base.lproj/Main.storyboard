@@ -22,6 +22,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="redIsHigher:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UTM-Qt-amq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5F-Yi-6VH">
                                 <rect key="frame" x="158" y="517" width="99" height="104"/>
@@ -30,6 +33,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="greenIsHigher:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dg2-qW-XeJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AP-xp-z0O">
                                 <rect key="frame" x="295" y="517" width="99" height="104"/>
@@ -38,6 +44,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="blueIsHigher:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WWh-24-Vse"/>
+                                </connections>
                             </button>
                             <view tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A8h-9Z-DO8">
                                 <rect key="frame" x="20" y="44" width="374" height="372"/>
